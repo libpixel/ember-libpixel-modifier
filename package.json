@@ -1,13 +1,17 @@
 {
   "name": "ember-libpixel-modifier",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.5.0",
+  "description": "A LibPixel element modifier for adding image processing service to images",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "libpixel",
+    "modifier",
+    "image",
+    "processing"
   ],
-  "repository": "",
+  "repository": "https://github.com/libpixel/ember-libpixel-modifier",
   "license": "MIT",
-  "author": "",
+  "author": "Lauri Jutila <lauri@libpixel.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -21,8 +25,10 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
+    "ember-class-based-modifier": "^0.10.0",
     "ember-cli-babel": "^7.11.1",
-    "ember-cli-htmlbars": "^4.0.0"
+    "ember-cli-htmlbars": "^4.0.0",
+    "ember-libpixel": "file:../ember-libpixel"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.0.0",
