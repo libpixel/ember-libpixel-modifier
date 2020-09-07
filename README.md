@@ -98,7 +98,7 @@ but possibly clipping a part of the image.
 ```
 
 Supported transformations are all "transformational" LibPixel Image API
-operations, documented at [LibPixel API documentation](https://libpixel.com/docs/).
+operations, documented at [LibPixel API documentation](https://docs.libpixel.com/api-documentation/image-api).
 
 * `blur`: (integer, between 0 and 100) blurs the image
 * `brightness`: (integer, between -100 and 100) adjusting image brightness
